@@ -280,3 +280,20 @@ video {
   max-width: 110%;
 }
 
+ .image
+{
+    background:url(imgimg/feb24_03.jpg);
+    height:100px;
+    width:100px;
+    display: block;
+    float:left;
+}
+
+.image  a {
+    display: none;
+}
+
+.image  a:hover {
+    display: block;
+}
+
