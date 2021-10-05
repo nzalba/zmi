@@ -349,6 +349,8 @@ video {
   left:0;
   right:0;
   object-fit:cover;
+
+
 } 
 
 .overlay img {
@@ -359,6 +361,16 @@ video {
   width: 1000%;
   height: 50%;
   position: center;
-  padding-top: 7em;
+  padding-top: 7em; 
+   min-width: 480px;
+   
 }
+@media screen and (max-width: 481px){
+   max-width: 480px;
+ }
+
+
+  
+
+
 
